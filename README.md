@@ -1,6 +1,6 @@
 # MyDataAnalystProject
 
-INTRODUCTION
+**INTRODUCTION
 
 Here is a comprehensive report that encapsulates the essence of the two intriguing projects offered by MeriSKILL as a Data analyst intern. These projects, centered within the realm of data analytics, are meticulously designed to unravel patterns and insights concealed within intricate datasets. The focus of these projects includes:
 
@@ -59,7 +59,6 @@ To visualize the Months and Days in chronological data using the slicer visual, 
 
 ![transform sales data](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/13709841-ff7c-45ff-852e-6b569cf8b378)
 
-
 To find the revenue metrics:
 • Total profit: Sum up the net profit from all sales transactions.
 • Sales quantity: Calculate the total number of units sold.
@@ -69,7 +68,6 @@ To find the revenue metrics:
 2. Additionally, I adjust the display units to show values in millions, billions, trillions, or hundreds, and customize the number of decimal places as needed.
 
 ![Card](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/fa0345fd-a72a-43ba-a855-3798a3558b00)
-
 
 Order visualizations as shown below were also created;
 
