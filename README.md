@@ -1,6 +1,6 @@
 # MyDataAnalystProject
 
-**INTRODUCTION
+**INTRODUCTION**
 
 Here is a comprehensive report that encapsulates the essence of the two intriguing projects offered by MeriSKILL as a Data analyst intern. These projects, centered within the realm of data analytics, are meticulously designed to unravel patterns and insights concealed within intricate datasets. The focus of these projects includes:
 
@@ -8,12 +8,12 @@ Here is a comprehensive report that encapsulates the essence of the two intrigui
 
 2. HR Analytics: Delving into the world of human resources, with a keen eye on data analysis to optimize talent management and organizational performance.
 
-PROJECT 1: SALES DATA
+**PROJECT 1: SALES DATA**
 
-PURPOSE:
+**PURPOSE:**
 To Analyze sales data to identify trends, top-selling products, and revenue metrics for business decision-making.
 
-DESCRIPTION:
+**DESCRIPTION:**
 In this project, I dive into a large sales dataset to extract valuable insights. Exploring sales trends over time, identifying the best-selling products, calculating revenue metrics such as total sales and profit margins, and creating visualizations to present your findings effectively. 
 
 The datasets underwent meticulous cleaning and analysis using Excel before being imported into Power BI through Power Query. Noteworthy transformations were applied, including header promotion, column splitting by delimiter, and data type adjustments.
@@ -32,7 +32,7 @@ Column Description For Sales Data Analysis:
 • City
 • Hour
 
-TRANSFORMATION OF DATA
+**TRANSFORMATION OF DATA**
 
 STEP 1:
 I downloaded the dataset, uploaded it using the 'Get Data' option in Excel, and then proceeded to transform the data.
@@ -50,7 +50,7 @@ After loading the data, I use the pivot table to extract the significance from t
 ![Pivot table sales 2](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/32a809fa-0aa5-4745-a42c-f011cb2168ea)
 
 
-VISUALIZATION OF DATA 
+**VISUALIZATION OF DATA**
 The transformed data was then imported to the Power Query in Power BI and was loaded. Here, I performed significant visualizations, including Sales trends over time using the line chart, The best-selling products using a tree map, The top 5 best-selling products using a stacked bar chart, and Weekly sales distribution by weekday using a column chart.
 
 To visualize the Months and Days in chronological data using the slicer visual, the parent data for the Order_date were revisited and split into delimiters. The column data type was transformed to Day and month which shows the day and Month number as seen below.
@@ -71,7 +71,7 @@ To find the revenue metrics:
 
 Order visualizations as shown below were also created;
 
-The map Visualization
+**The map Visualization**
 Using a Power BI map is a great way to visualize data that represent locations. With visually appealing maps and easy-to-understand content, your users will be able to gain more insight into your data
 
 Before using map visuals, you need to enable the map visual from the settings in Power BI.
@@ -89,10 +89,12 @@ The Best 5 selling products using a tree map
 ![sales viz top 5](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/04ecc620-6b70-4032-bfc5-ead0e476acbd)
 
 
-SALES DASHBOARD FINAL
+**SALES DASHBOARD FINAL**
 ![Full viz sales data](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/62dd6eea-3d63-4a62-ad33-ea1b58035634)
 
-KEY INSIGHTS
+
+**KEY INSIGHTS**
+
 December witnessed the highest sales at 24,984, marking a remarkable 157.33% increase compared to the lowest sales in January, recorded at 9,709.
 
 Additionally, visual representations highlighted the AAA battery as the product with the highest quantity ordered, while Wired Headphones received the least orders.
@@ -104,16 +106,15 @@ Leveraging the map visually, I showcased the top 5 cities contributing to the hi
 This project underscores my adeptness in manipulating and extracting insights from extensive datasets, enabling data-driven recommendations for optimizing sales strategies.
 
 
-PROJECT 2: HR ATTRITION
+**PROJECT 2: HR ATTRITION**
 
-DESCRIPTION
-
+**DESCRIPTION**
 The project entails an HR attrition dataset providing an overview of the demographics insights, the turnover analysis, and employee wellness. While working on the datasets, I was saddled with cleaning them datasets by deleting redundancy, renaming some columns, dropping duplicates, cleaning individual columns, removing the NaN values from the datasets, and checking for more transformations.  Visualize the data with Power BI, while plotting a correlation map for all numeric variables, Marital status, job role, Gender, Total working year, Distance from home, Number of companies worked, etc.
 
-PURPOSE 
+**PURPOSE** 
 To analyze the attrition data by Demographic insights, turnover information, and employee wellness.
 
-Data Cleaning:
+**Data Cleaning:**
 • Deleting redundant columns.
 • Renaming the columns.
 • Dropping duplicates.
@@ -121,8 +122,7 @@ Data Cleaning:
 • Remove the NaN values from the dataset
 • Check for some more Transformations
 
-Data Visualization:
-
+**Data Visualization:**
 • Plot a correlation map for all numeric variable Overtime
 • Marital Status
 • Job Role
@@ -146,13 +146,13 @@ Summing all the 1s gives the total attrition count that is 237, And subtracting 
 
 ![Attrition formula](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/304ef5a0-5c47-45a5-b327-a25ba328cbb6)
 
-Grouping Data
+**Grouping Data**
 I aggregate certain values together to form meaningful subsets.
 ![Job Level groups](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/53da2fad-8f91-4baa-8044-e236263ba75c)
 ![groups age](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/f75c5ee2-c426-4c91-93e4-e920770f8ff4)
 
-VISUALIZATION OF DATA 
-DEMOGRAPHICS
+**VISUALIZATION OF DATA**
+**DEMOGRAPHICS**
 
 Total Employees, Attrition Count, and Active employees: Using the card to determine as shown below;
 
@@ -175,12 +175,12 @@ A slicer is used to make this kind of visualization; The slicer can either be di
 ![slicer marital](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/14c5720b-0336-4276-9695-3b99dc0be6f8)
 
 
-FINAL DEMOGRAPHICS DASHBOARD
+**FINAL DEMOGRAPHICS DASHBOARD**
 
 ![Demographics final](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/4d30a152-f5c0-4a0f-aaea-92199e523985)
 
 
-TURNOVER ANALYSIS
+**TURNOVER ANALYSIS**
 
 Total attraction by Business Travel
 
@@ -198,12 +198,12 @@ Total attrition by job role filtered by Gender
 
 ![Job role](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/dbef4b18-46f6-4192-9014-8b3ca28639a3)
 
-FINAL TURNOVER ANALYSIS I
+**FINAL TURNOVER ANALYSIS I**
 
 ![Turnover analysis](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/a28a8bec-b25c-44b6-8efe-fc5ae05925bd)
 
 
-TURNOVER ANALYSIS II
+**TURNOVER ANALYSIS II**
 Tota attrition by Job level: The job levels which were given in numbers were also grouped and plotted as shown below;
 
 ![Attrition by Job level](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/b099daa3-ca14-4fdb-8844-2e5a3a818cbf)
@@ -220,12 +220,13 @@ Average monthly Income and Attrition by job role;
 
 ![Average monthly income](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/6365af70-99c3-4e9d-b6dd-c10a4e5de9c5)
 
-FINAL TURNOVER ANALYSIS II
+
+**FINAL TURNOVER ANALYSIS II**
 
 ![Turnover analysis II](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/7f900556-fc4b-4c38-9055-c033e9e29e60)
 
 
-EMPLOYEE WELLNESS
+**EMPLOYEE WELLNESS**
 
 Relationship satisfaction is grouped as dissatisfied, very dissatisfied, satisfied, and very satisfied as visualized below;
 
@@ -243,15 +244,14 @@ Total attrition by job involvement.
 ![Job Involvemnet group](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/518ec1e7-5d3d-414a-aa53-2051339b0aa4)
 
 
-FINAL EMPLOYEE WELLNESS DASHBOARD
+**FINAL EMPLOYEE WELLNESS DASHBOARD**
 
 ![Employee Wellness](https://github.com/SammyOlanre/My-SQLSERVER-PROJECT/assets/87617278/a8eb7813-b3b3-46a9-ab38-4624b8695592)
 
 In this dashboard, grouping plays a crucial role in organizing and presenting the data effectively. The design of the dashboard is tailored to utilize the power of grouping for enhanced data visualization and analysis.
 
-KEY INSIGHTS
-
-DEMOGRAPHICS
+**KEY INSIGHTS**
+**DEMOGRAPHICS**
 The analysis discerns that the age group 31-45 exhibits the highest Attrition Count, surpassing the 46-60 age group by 202.94%, with the latter recording the lowest Attrition Count at 34. This implies that the highest employee departures from the organization occur between the ages of 31-45, accounting for 43.46% of the total attrition.
 
 Specifically, the age group 31-45 commands the highest Sum of Attrition Count at 103, followed by 18-30 at 100 and 46-60 at 34. Notably, the 31-45 age group contributes to 43.46% of the total Sum of Attrition Count.
@@ -275,7 +275,7 @@ Further analysis reveals that employees with less than a year in their current r
 
 In terms of travel patterns, employees who rarely travel (156) surpass the attrition count of those who travel frequently (69) and those who do not travel at all (12).
 
-TURNOVER ANALYSIS II
+**TURNOVER ANALYSIS II**
 Employees that got employed to an Entry level job role 143, depart the organization voluntarily or involuntarily mostly compared to those as Junior or associate 52, Mid-level specialist (32), Executive (5), Senior role (5)
 
 The Managerial role stands out with the highest Average Monthly Income at 17,181.68, marking a substantial 554.29% difference from the Sales Representative role, which records the lowest Average Monthly Income at 2,626.00.
@@ -292,7 +292,7 @@ Additionally, employees entering the organization in Entry-level roles (143) are
 
 This in-depth analysis provides valuable insights into the nuanced relationships between income levels, job roles, gender, age groups, performance, overtime engagement, and their impact on employee attrition.
 
-EMPLOYEE WELLNESS
+**EMPLOYEE WELLNESS**
 The analysis reveals that employees enjoying a Good work-life balance exhibited the highest Sum of Attrition Count at 127, surpassing those with Average, Excellent, and Bad work-life balances. Notably, Good work-life balance constituted 53.59% of the total Sum of Attrition Count.
 
 In terms of Job Involvement, employees with moderate involvement recorded the highest Sum of Attrition Count at 125, marking an 861.54% increase compared to those with high job involvement, who exhibited the lowest Sum of Attrition Count at 13. This pattern persisted across all four Job Involvement categories, where Sum of Attrition Count ranged from 13 to 125.
