@@ -2,7 +2,7 @@
 
 **INTRODUCTION**
 
-Here is a comprehensive report that encapsulates the essence of the two intriguing projects offered by MeriSKILL as a Data analyst intern. These projects, centered within the realm of data analytics, are meticulously designed to unravel patterns and insights concealed within intricate datasets. The focus of these projects includes:
+A comprehensive report that encapsulates the essence of the two intriguing projects offered by MeriSKILL as a Data analyst Intern. These projects, centered within the realm of data analytics, are meticulously designed to unravel patterns and insights concealed within intricate datasets. The focus of these projects includes:
 
 1. Sales Analysis: A deep dive into sales data, aimed at extracting valuable insights to enhance strategic decision-making.
 
